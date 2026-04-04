@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nishant Khadka Portfolio
 
-## Getting Started
+Production-ready personal portfolio built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, and EmailJS.
 
-First, run the development server:
+## Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- EmailJS
+
+## Run Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## EmailJS Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Create an EmailJS account at https://www.emailjs.com.
+2. Create an Email Service and Email Template.
+3. Copy `.env.example` to `.env.local` and add keys:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=...
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=...
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=...
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Map your template variables to the fields used in the app:
 
-## Deploy on Vercel
+- `from_name`
+- `from_email`
+- `reply_to`
+- `message`
+- `to_name`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## JSON Content Architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All main content is loaded from JSON files in `data/`:
+
+- `data/experience.json`
+- `data/education.json`
+- `data/projects.json`
+- `data/skills.json`
+- `data/certifications.json`
+- `data/site.json` (site-level content and SEO)
+
+Update these files to change the portfolio content without editing React components.
+
+### Certifications With Images
+
+Each certification in `data/certifications.json` can include an `image` field:
+
+```json
+{
+  "title": "My Certification",
+  "issuer": "Provider",
+  "date": "2026",
+  "image": "/certifications/my-cert-image.png",
+  "credentialUrl": "https://example.com"
+}
+```
+
+Place image files in `public/certifications/` and reference them with a `/certifications/...` path.
+
+### Resume PDF
+
+The resume buttons open `public/resume.pdf` in a new tab. Replace this file with your final resume PDF while keeping the same filename.
+
+## Deployment
+
+The project is optimized for Vercel deployment.
+
+```bash
+vercel
+```
+
+Or connect the repository in the Vercel dashboard for CI deployments.

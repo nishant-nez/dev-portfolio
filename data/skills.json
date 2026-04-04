@@ -1,0 +1,40 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      { "name": "C#", "focus": ".NET backend and enterprise systems" },
+      { "name": "Java", "focus": "High-performance backend services with Quarkus" },
+      { "name": "JavaScript", "focus": "Full-stack web development" },
+      { "name": "TypeScript", "focus": "Type-safe scalable applications" },
+      { "name": "Python", "focus": "Automation, data processing, and scripting" },
+      { "name": "SQL", "focus": "Database design and query optimization" },
+      { "name": "Bash", "focus": "System automation and scripting" },
+      { "name": "C/C++", "focus": "Core programming and problem solving" }
+    ]
+  },
+  {
+    "category": "Frameworks & Libraries",
+    "items": [
+      { "name": ".NET / ASP.NET Core", "focus": "Scalable and secure backend APIs" },
+      { "name": "Quarkus", "focus": "Lightweight Java microservices" },
+      { "name": "Django & Django REST Framework", "focus": "Rapid API and web development" },
+      { "name": "FastAPI", "focus": "High-performance Python APIs" },
+      { "name": "Node.js / Express.js", "focus": "Event-driven backend systems" },
+      { "name": "React.js", "focus": "Dynamic and interactive UI development" },
+      { "name": "Next.js", "focus": "SEO-friendly full-stack applications" }
+    ]
+  },
+  {
+    "category": "Tools & Technologies",
+    "items": [
+      { "name": "AWS", "focus": "Cloud infrastructure and deployment" },
+      { "name": "Docker", "focus": "Containerization and environment consistency" },
+      { "name": "Linux", "focus": "Server management and system operations" },
+      { "name": "Redis", "focus": "Caching and performance optimization" },
+      { "name": "RabbitMQ", "focus": "Message queuing and async processing" },
+      { "name": "Elasticsearch & ELK Stack", "focus": "Log analysis and monitoring systems" },
+      { "name": "SIEM Systems", "focus": "Security monitoring and threat analysis" },
+      { "name": "GitHub Actions / CI-CD", "focus": "Automated build and deployment pipelines" }
+    ]
+  }
+]

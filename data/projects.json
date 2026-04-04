@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Modern Clock",
+    "description": "A modern, customizable clock web app built with Next.js featuring multiple clock styles including digital, analog, and flip along with a world clock with an interactive map, timers, countdowns, and a stopwatch in a minimal and responsive UI with theme support.",
+    "techStack": ["nextJS"],
+    "image": "/projects/modern-clock.png",
+    "githubUrl": "https://github.com/nishant-nez/Modern-Clock",
+    "demoUrl": "https://clock.nishantkhadka.com.np/clock",
+    "details": ""
+  },
+  {
+    "title": "Olympic Data Analysis",
+    "description": "A Streamlit-based interactive dashboard that explores 120 years of Olympic history using the official athlete and results dataset. It provides insights into medal tallies, country-wise performance, athlete statistics, and overall Olympic trends with rich visualizations.",
+    "techStack": ["python", "pandas", "EDA", "matplotlib", "seaborn", "plotly", "streamlit"],
+    "image": "/projects/olympic-analysis.png",
+    "githubUrl": "https://github.com/nishant-nez/Olympic-Data-Analysis",
+    "demoUrl": "https://olympic-analysis-nk.streamlit.app/",
+    "details": ""
+  },
+  {
+    "title": "Face Mask Detection",
+    "description": "This project implements a real-time face mask detection system using deep learning and computer vision techniques. The system can identify whether a person is wearing a face mask through both live webcam feed and uploaded images, making it suitable for deployment in public spaces, offices, and healthcare facilities.",
+    "techStack": ["neural network", "VGG16 architecture"],
+    "image": "/projects/face-mask-detection.png",
+    "githubUrl": "https://github.com/nishant-nez/Face-Mask-Detection",
+    "demoUrl": "https://face-mask.nishantkhadka.com.np/",
+    "details": ""
+  },
+  {
+    "title": "SMS Spam Classifier",
+    "description": "A machine learning project using the SMS Spam Collection Dataset to classify messages as spam or ham, with a Streamlit app for an interactive UI.",
+    "techStack": [
+      "python",
+      "pandas",
+      "BoW",
+      "vectorization",
+      "naive bayes",
+      "SVM",
+      "random forest",
+      "logistic regression"
+    ],
+    "image": "/projects/sms-spam-classifier.png",
+    "githubUrl": "https://github.com/nishant-nez/SMS-Spam-Classifier",
+    "demoUrl": "https://spam-classifier.nishantkhadka.com.np/",
+    "details": ""
+  },
+  {
+    "title": "Movie Recommender",
+    "description": "This project is a content-based movie recommender system built using the TMDB dataset. It analyzes metadata such as movie titles, genres, keywords, cast, and crew to recommend similar movies. A simple Flask web application is provided that allows users to select a movie and get the top 5 recommended movies.",
+    "techStack": ["python", "flask", "tailwind", "ML", "cosine similarity"],
+    "image": "/projects/movie-recommender.png",
+    "githubUrl": "https://github.com/nishant-nez/Movie-Recommender.git",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Book Store",
+    "description": "",
+    "techStack": ["MSSQLServer2022", ".NET", "RazorPages"],
+    "image": "/projects/book-store.png",
+    "githubUrl": "https://github.com/nishant-nez/BookStore_MVC",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Personalized Healthcare System",
+    "description": "",
+    "techStack": ["postgreSQL", "djangoDRF", "react"],
+    "image": "/projects/personalized-healthcare.png",
+    "githubUrl": "https://github.com/nishant-nez/Personalized-Healthcare-System",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Avari",
+    "description": "",
+    "techStack": ["postgreSQL", "react", "express"],
+    "image": "/projects/av1.png",
+    "githubUrl": "https://github.com/nishant-nez/Avari-AU",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Online Voting System",
+    "description": "",
+    "techStack": ["django", "MySQL"],
+    "image": "/projects/voting.png",
+    "githubUrl": null,
+    "demoUrl": "https://election.nishantkhadka.com.np",
+    "details": ""
+  },
+  {
+    "title": "Real Estate Marketplace",
+    "description": "",
+    "techStack": ["nestJS", "nextJS", "postgreSQL", "socket.io", "fastAPI"],
+    "image": "/projects/estate.png",
+    "githubUrl": "https://github.com/nishant-nez/Real-Estate-Marketplace",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Network Monitoring",
+    "description": "",
+    "techStack": ["react", "express", "node", "mongoDB"],
+    "image": "/projects/network.png",
+    "githubUrl": "https://github.com/nishant-nez/Network-Monitoring",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Life Organizer",
+    "description": "",
+    "techStack": ["django", "postgreSQL", "celery"],
+    "image": "/projects/life.png",
+    "githubUrl": "https://github.com/nishant-nez/Life-Organizer",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "TODO App",
+    "description": "",
+    "techStack": ["flutter"],
+    "image": "/projects/todo.png",
+    "githubUrl": "https://github.com/nishant-nez/TODO-App",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Personal Expenses App",
+    "description": "",
+    "techStack": ["flutter"],
+    "image": "/projects/todo.png",
+    "githubUrl": "https://github.com/nishant-nez/Personal-Expenses",
+    "demoUrl": null,
+    "details": ""
+  },
+  {
+    "title": "Advanced Calculator",
+    "description": "",
+    "techStack": ["C++"],
+    "image": "/projects/calculator.png",
+    "githubUrl": "https://github.com/nishant-nez/Advanced-Calculator",
+    "demoUrl": null,
+    "details": ""
+  }
+]

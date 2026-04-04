@@ -1,0 +1,32 @@
+{
+  "name": "Nishant Khadka",
+  "title": "Software Engineer",
+  "tagline": "Specializing in .NET, Java, and Python to build scalable modern products.",
+  "location": "Nepal",
+  "email": "khadkanishant1@gmail.com",
+  "navigation": [
+    { "id": "home", "label": "Home" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "education", "label": "Education" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/nishant-nez" },
+    { "label": "LinkedIn", "url": "http://linkedin.com/in/nishant-khadka" }
+  ],
+  "seo": {
+    "title": "Nishant Khadka | Software Engineer",
+    "description": "Nishant Khadka is a software engineer building high-quality products with .NET, Java, and Node.js. Explore projects, experience, and certifications.",
+    "keywords": [
+      "Nishant Khadka software engineer",
+      ".NET developer Nepal",
+      "Java Node.js developer portfolio",
+      "full-stack software engineer Nepal",
+      "Nishant Khadka portfolio",
+      "Nishant Khadka cedargate",
+      "DevOps engineer Nepal"
+    ]
+  }
+}

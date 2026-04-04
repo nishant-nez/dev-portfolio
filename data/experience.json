@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Software Development Engineer I",
+    "organization": "Cedar Gate Technologies",
+    "duration": "Mar 2025 - Present",
+    "description": "Developing and maintaining enterprise-grade healthcare payment systems in the U.S. domain using .NET Core and Java. Focused on building scalable, secure backend services, optimizing performance, and ensuring compliance. Actively involved in system design, debugging and agile collaboration with cross-functional teams."
+  },
+  {
+    "title": "Associate Software Developer",
+    "organization": "Green Tick Nepal",
+    "duration": "Jul 2024 - Feb 2025",
+    "description": "Worked on cybersecurity and backend systems including a SIEM platform with Elasticsearch optimization and a DDoS protection system. Built full-stack solutions such as a tax portal and ticket management system with RBAC, SLA tracking, and automation. Improved performance using Redis caching and managed infrastructure, ELK stack, containerization, and deployment pipelines."
+  },
+  {
+    "title": "DevOps and Networking Intern",
+    "organization": "Deerwalk Education Group",
+    "duration": "Dec 2022 - Apr 2024",
+    "description": "Developed network monitoring and inventory management systems, deployed applications on AWS and local servers, and implemented CI/CD pipelines with Docker. Automated firewall operations, contributed to network infrastructure improvements, and provided IT support to ensure system reliability and performance."
+  }
+]
