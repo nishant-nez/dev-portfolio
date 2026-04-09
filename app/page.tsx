@@ -1,4 +1,4 @@
-import { PortfolioShell } from "@/app/components/PortfolioShell";
+import { ClientPortfolioShell } from "@/app/components/ClientPortfolioShell";
 import { siteData } from "@/app/lib/content";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      <PortfolioShell />
+      <ClientPortfolioShell />
     </>
   );
 }

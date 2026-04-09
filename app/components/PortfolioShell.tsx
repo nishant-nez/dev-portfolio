@@ -50,7 +50,7 @@ export function PortfolioShell() {
             </motion.main>
 
             <footer className="border-t border-[var(--ring)] px-5 py-7 text-center text-xs text-[var(--muted)] sm:px-8">
-                Copyright {new Date().getFullYear()} {siteData.name}. Built with Next.js and TypeScript.
+                Copyright {new Date().getFullYear()} {siteData.name}.
             </footer>
 
             <BackToTop />

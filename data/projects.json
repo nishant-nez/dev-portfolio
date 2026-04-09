@@ -55,7 +55,7 @@
   },
   {
     "title": "Book Store",
-    "description": "",
+    "description": "A full-stack ASP.NET Core 8.0 MVC application with Razor Pages, .NET Identity, and MS SQL Server 2022 for managing books, users, and orders.",
     "techStack": ["MSSQLServer2022", ".NET", "RazorPages"],
     "image": "/projects/book-store.png",
     "githubUrl": "https://github.com/nishant-nez/BookStore_MVC",
