@@ -1,7 +1,7 @@
 {
   "name": "Nishant Khadka",
   "title": "Software Engineer",
-  "tagline": "Specializing in .NET, Java, and Python to build scalable modern products.",
+  "tagline": "Specializing in .NET, Java, Python and NodeJS to build scalable modern products.",
   "location": "Nepal",
   "email": "khadkanishant1@gmail.com",
   "navigation": [
@@ -14,7 +14,8 @@
   ],
   "socials": [
     { "label": "GitHub", "url": "https://github.com/nishant-nez" },
-    { "label": "LinkedIn", "url": "http://linkedin.com/in/nishant-khadka" }
+    { "label": "LinkedIn", "url": "http://linkedin.com/in/nishant-khadka" },
+    { "label": "Email", "url": "mailto:khadkanishant1@gmail.com" }
   ],
   "seo": {
     "title": "Nishant Khadka | Software Engineer",

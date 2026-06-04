@@ -43,6 +43,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=...
 
 - `from_name`
 - `from_email`
+- `from_subject`
 - `reply_to`
 - `message`
 - `to_name`

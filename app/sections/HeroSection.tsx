@@ -5,7 +5,7 @@ import { useTypewriter } from "@/app/hooks/useTypewriter";
 import { motion } from "framer-motion";
 
 export function HeroSection() {
-    const typed = useTypewriter([".NET", "Java", "Python"], 80, 1200);
+    const typed = useTypewriter([".NET", "Java", "Python", "NodeJS"], 80, 1200);
 
     return (
         <section id="home" className="relative mx-auto flex min-h-[calc(100vh-5rem)] w-full max-w-6xl items-center px-5 py-18 sm:px-8">
